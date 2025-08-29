@@ -1,0 +1,5 @@
+D:/Ken Lap Trinh/projects/Opengl Renderer/build/CMakeFiles/hello.dir
+D:/Ken Lap Trinh/projects/Opengl Renderer/build/CMakeFiles/glad.dir
+D:/Ken Lap Trinh/projects/Opengl Renderer/build/CMakeFiles/stbi.dir
+D:/Ken Lap Trinh/projects/Opengl Renderer/build/CMakeFiles/edit_cache.dir
+D:/Ken Lap Trinh/projects/Opengl Renderer/build/CMakeFiles/rebuild_cache.dir

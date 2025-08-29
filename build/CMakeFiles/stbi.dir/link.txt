@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libstbi.a "CMakeFiles/stbi.dir/third-party/stb_image/stb_image.cpp.obj"
+C:\msys64\ucrt64\bin\ranlib.exe libstbi.a

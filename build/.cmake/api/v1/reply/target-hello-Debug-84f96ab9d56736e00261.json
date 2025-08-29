@@ -1,0 +1,169 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "hello.exe"
+		},
+		{
+			"path" : "hello.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "D:/Ken Lap Trinh/projects/Opengl Renderer/third-party/errorReporting"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Ken Lap Trinh/projects/Opengl Renderer/third-party/glad/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Ken Lap Trinh/projects/Opengl Renderer/third-party/glfw-3.4.bin.WIN64/glfw-3.4.bin.WIN64/include/GLFW"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Ken Lap Trinh/projects/Opengl Renderer/third-party/glm"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Ken Lap Trinh/projects/Opengl Renderer/third-party/ShaderHandler"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Ken Lap Trinh/projects/Opengl Renderer/third-party/stb_image"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Ken Lap Trinh/projects/Opengl Renderer/renderer"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "glad::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "stbi::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "hello::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libglad.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libstbi.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "\"D:\\Ken Lap Trinh\\projects\\Opengl Renderer\\third-party\\glfw-3.4.bin.WIN64\\glfw-3.4.bin.WIN64\\lib-mingw-w64\\libglfw3.a\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "hello",
+	"nameOnDisk" : "hello.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

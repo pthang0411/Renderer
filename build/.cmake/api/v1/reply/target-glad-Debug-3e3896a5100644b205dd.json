@@ -1,0 +1,115 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libglad.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "D:/Ken Lap Trinh/projects/Opengl Renderer/third-party/errorReporting"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Ken Lap Trinh/projects/Opengl Renderer/third-party/glad/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Ken Lap Trinh/projects/Opengl Renderer/third-party/glfw-3.4.bin.WIN64/glfw-3.4.bin.WIN64/include/GLFW"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Ken Lap Trinh/projects/Opengl Renderer/third-party/glm"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Ken Lap Trinh/projects/Opengl Renderer/third-party/ShaderHandler"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Ken Lap Trinh/projects/Opengl Renderer/third-party/stb_image"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Ken Lap Trinh/projects/Opengl Renderer/renderer"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "glad::@6890427a1f51a3e7e1df",
+	"name" : "glad",
+	"nameOnDisk" : "libglad.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/glad/src/glad.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

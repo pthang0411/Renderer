@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/Ken Lap Trinh/projects/Opengl Renderer/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/glad.dir/includes_C.rsp -g -o CMakeFiles\\glad.dir\\third-party\\glad\\src\\glad.c.obj -c \"D:\\Ken Lap Trinh\\projects\\Opengl Renderer\\third-party\\glad\\src\\glad.c\"",
+  "file": "D:/Ken Lap Trinh/projects/Opengl Renderer/third-party/glad/src/glad.c",
+  "output": "CMakeFiles/glad.dir/third-party/glad/src/glad.c.obj"
+},
+{
+  "directory": "D:/Ken Lap Trinh/projects/Opengl Renderer/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/stbi.dir/includes_CXX.rsp -g -o CMakeFiles\\stbi.dir\\third-party\\stb_image\\stb_image.cpp.obj -c \"D:\\Ken Lap Trinh\\projects\\Opengl Renderer\\third-party\\stb_image\\stb_image.cpp\"",
+  "file": "D:/Ken Lap Trinh/projects/Opengl Renderer/third-party/stb_image/stb_image.cpp",
+  "output": "CMakeFiles/stbi.dir/third-party/stb_image/stb_image.cpp.obj"
+},
+{
+  "directory": "D:/Ken Lap Trinh/projects/Opengl Renderer/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/hello.dir/includes_CXX.rsp -g -o CMakeFiles\\hello.dir\\src\\main.cpp.obj -c \"D:\\Ken Lap Trinh\\projects\\Opengl Renderer\\src\\main.cpp\"",
+  "file": "D:/Ken Lap Trinh/projects/Opengl Renderer/src/main.cpp",
+  "output": "CMakeFiles/hello.dir/src/main.cpp.obj"
+}
+]
